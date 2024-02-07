@@ -22,6 +22,11 @@ namespace Fish.Serialization{
             this.buffer = buffer;
         }
     
+        public void SetPosition(int position)
+        {
+            this.position = position;
+        }
+    
         public bool Write(object value, Type type)
         {
             if (value is null)
