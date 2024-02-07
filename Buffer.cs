@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace Fish.Buffer{
+namespace Fish.Serialization{
     public class Buffer
     {
         public byte[] buffer;
