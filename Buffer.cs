@@ -1,3 +1,6 @@
+using System;
+using System.Text;
+
 namespace Fish.Buffer{
     public class Buffer
     {
